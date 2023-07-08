@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+    
+    font-family: 'Open Sans';
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600;900&family=Open+Sans:wght@400;700&display=swap');
+   }
+
+   body {
+    background: white;
+    background-repeat: no-repeat ;
+    background-size: cover;
+   }
+
+    nav {
+    height: 80px;
+    width: 100%;
+    background: white;
+    }
+
+    
+    .logotipo {
+    height: 80px;
+    position: absolute;
+    background: white;
+    padding: 20px 50px 0px;
+    }
+
+    nav ul{
+    float: right;
+    margin-right: 20px;
+    background: white;
+
+    }
+
+    nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    background: white;
+
+    }
+    
+    nav ul li a{
+        color: rgb(222, 102, 218);
+        font-size: 18px;
+        padding: 7px 13px;
+        border-radius: 3px;
+        text-transform: uppercase;
+        background: white;
+        font-family: 'Noto Sans', sans-serif;
+        font-weight: 700;
+        
+    }
+
+    li a.active, li a:hover {
+color: rgb(11, 187, 226);
+    }
+
+.articules{
+    border-top: 6px solid #adadad77;
+}
+
+    .parrafo0{
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 35px;
+        padding: 10px 200px;
+        margin-top: 1px;
+        text-align: center;
+        color:black;
+    }
+
+    .parrafo1, .parrafo2{
+        display: inline;
+        width: 30px;
+        font-size: 20px;
+        padding: 10px 200px;
+        margin: 20px;
+        text-align: center;
+        color:black;
+    }
+
+    .parrafo2{
+       margin-top: 20px;
+        display: inline;          
+        text-align: left;
+        
+    }
+
+
+
+    .articules p{
+        font-size: 20px;
+        margin-left: 15px;
+        padding: 20px;
+    }
+
+    .articules img{
+      width: 400px;
+      float: right;
+      margin-right: 250px;
+      border-radius: 30%;
+    }
+
+    
+
+    
+  
+
+
+
+    
+
